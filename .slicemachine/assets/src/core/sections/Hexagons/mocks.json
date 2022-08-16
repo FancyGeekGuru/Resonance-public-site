@@ -1,0 +1,19 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "hexagons",
+    "items": [],
+    "primary": {
+      "theme": "white",
+      "accent": "black",
+      "heading": [
+        {
+          "type": "heading1",
+          "text": "Engineer vertical systems",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

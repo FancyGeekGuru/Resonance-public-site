@@ -1,0 +1,73 @@
+.btn {
+  @apply
+    appearance-none
+    outline-none
+    bg-black
+    text-white
+    rounded-full
+    cursor-pointer
+    text-center
+    inline-flex
+    items-center
+    select-none
+    justify-center
+    py-[10px]
+    md:py-4
+    px-4
+    md:px-[30px]
+    whitespace-nowrap
+    no-underline
+    font-display
+    font-bold
+    text-[1.1875rem]
+    md:text-[1.25rem]
+    leading-none
+    disabled:opacity-50
+    disabled:pointer-events-none
+    uppercase;
+  touch-action: manipulation;
+  transition-property: color, background-color, text-shadow;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+
+.btn svg {
+  filter: drop-shadow(0.75px 3px 3px rgba(63, 63, 63, 0.45));
+  transition: filter 0.3s ease;
+}
+
+.btn-yellow {
+  @apply bg-yellow text-black;
+}
+
+.btn-aquamarine {
+  @apply bg-aquamarine text-black;
+}
+
+.btn-pink {
+  @apply bg-pink text-black;
+}
+
+.btn-white {
+  @apply bg-white text-black;
+}
+
+.btn-black {
+  @apply bg-black text-white;
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    text-shadow: 0px 0px 0px rgba(63, 63, 63, 0);
+  }
+  
+  .btn:hover svg {
+    filter: drop-shadow(0px 0px 0px rgba(63, 63, 63, 0));
+  } 
+}
+
+.btn-small {
+  @apply text-[0.75rem] sm:text-[1rem] px-6 h-8 sm:h-11;
+  line-height: 1.25;
+  letter-spacing: 0.06em;
+}

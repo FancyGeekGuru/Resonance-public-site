@@ -1,0 +1,376 @@
+{
+  "_cts": {
+    "page": {},
+    "nav": {
+      "primaryNav": {},
+      "emailCapturePlaceholder": {
+        "content": "Your Email"
+      },
+      "emailCaptureCopy": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "primaryLinks": {},
+      "socialLinks": {}
+    },
+    "breakout-page": {}
+  },
+  "slices": {
+    "FlipCard": {
+      "default": {
+        "primary": {},
+        "items": {
+          "front-text": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "back-text": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "src/core/sections": {
+    "TestSlice": {},
+    "FlipCard": {
+      "default": {
+        "items": {
+          "frontText": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "backText": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "primary": {
+          "theme": {
+            "content": "forest"
+          },
+          "paddingTop": {
+            "content": "medium"
+          },
+          "paddingBottom": {
+            "content": "medium"
+          }
+        }
+      },
+      "extended": {
+        "items": {
+          "ctaLabel": {
+            "content": "Learn More"
+          },
+          "frontText": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 3
+            }
+          },
+          "backText": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "secondaryFrontText": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "backgroundImage": {
+            "content": "https://images.unsplash.com/photo-1510797215324-95aa89f43c33"
+          }
+        },
+        "primary": {}
+      }
+    },
+    "CenterCopy": {
+      "default": {
+        "primary": {
+          "copy": {
+            "config": {
+              "patternType": "STORY",
+              "blocks": 1
+            }
+          },
+          "theme": {
+            "content": "forest"
+          },
+          "paddingTop": {
+            "content": "medium"
+          },
+          "paddingBottom": {
+            "content": "medium"
+          }
+        }
+      }
+    },
+    "Image": {
+      "default": {
+        "primary": {
+          "image": {
+            "content": "https://images.unsplash.com/photo-1518640467707-6811f4a6ab73"
+          },
+          "theme": {
+            "content": "forest"
+          },
+          "fit": {
+            "content": "cover"
+          },
+          "fullWidth": {
+            "content": true
+          }
+        }
+      }
+    },
+    "BadgeCta": {
+      "default": {
+        "primary": {
+          "copy": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "theme": {
+            "content": "forest"
+          },
+          "paddingTop": {
+            "content": "medium"
+          },
+          "paddingBottom": {
+            "content": "medium"
+          },
+          "ctaLabel": {
+            "content": "Learn More"
+          }
+        }
+      }
+    },
+    "Cta": {
+      "default": {
+        "primary": {
+          "copy": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ScrollDemo": {
+      "default": {
+        "primary": {},
+        "items": {
+          "heading": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "copy": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ReorderCta": {
+      "default": {
+        "primary": {
+          "heading": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "copy": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
+    },
+    "ContentBlock": {
+      "default": {
+        "primary": {
+          "copy": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "imageCaption": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "theme": {
+            "content": "forest"
+          }
+        }
+      }
+    },
+    "BadgeCopy": {
+      "default": {
+        "primary": {
+          "copy": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Hexagons": {
+      "default": {
+        "primary": {
+          "heading": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
+    },
+    "TriCycle": {
+      "default": {
+        "primary": {
+          "circleCenterCopy": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "hexWord": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Statistics": {
+      "default": {
+        "primary": {
+          "heading": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "formulas": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "label": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "BrandsMarquee": {
+      "default": {
+        "primary": {
+          "heading": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "copy": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Gallery": {
+      "default": {
+        "primary": {
+          "heading": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
+    },
+    "CopyBlock": {
+      "default": {
+        "primary": {
+          "copy": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "accent": {
+            "content": "aquamarine"
+          },
+          "theme": {
+            "content": "white"
+          }
+        }
+      }
+    },
+    "ScrollVideo": {
+      "default": {
+        "primary": {
+          "heading": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
+    },
+    "Careers": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}

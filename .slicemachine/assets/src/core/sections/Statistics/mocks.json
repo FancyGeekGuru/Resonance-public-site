@@ -1,0 +1,59 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "statistics",
+    "items": [
+      {
+        "value": "orchestrate holistic content",
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Magna qui ex id exercitation cillum sint laboris consectetur.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "value": "target enterprise deliverables",
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Amet pariatur veniam et voluptate nostrud do. Enim mollit ipsum laboris elit enim aliquip cillum elit ipsum dolore commodo incididunt.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "value": "syndicate 24/365 e-commerce",
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Elit aute cillum mollit non dolor aute in adipisicing incididunt qui excepteur ad. Duis mollit culpa in dolor culpa nisi amet officia adipisicing cupidatat culpa veniam nostrud.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "theme": "white",
+      "accent": "aquamarine",
+      "paddingTop": "3xl",
+      "paddingBottom": "2xl",
+      "heading": [
+        {
+          "type": "paragraph",
+          "text": "Et ut laborum laborum.",
+          "spans": []
+        }
+      ],
+      "formulas": [
+        {
+          "type": "paragraph",
+          "text": "Ex occaecat exercitation proident sint elit labore. Eiusmod amet id officia ad sit velit laboris ut consequat nulla reprehenderit eiusmod aliqua ullamco esse. Sint anim aliquip occaecat aliqua nulla amet labore sit.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

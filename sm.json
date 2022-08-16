@@ -1,0 +1,6 @@
+{
+	"_latest": "0.3.4",
+	"apiEndpoint": "https://one-website.prismic.io/api/v2",
+	"libraries": ["@/src/core/sections"],
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
+}

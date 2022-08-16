@@ -1,0 +1,14 @@
+.container {
+  margin-inline: auto;
+  max-width: var(--layout-max-width);
+  padding-left: var(--layout-margin-mobile);
+  padding-right: var(--layout-margin-mobile);
+  width: 100%;
+}
+
+@media screen(sm) {
+  .container {
+    padding-left: var(--layout-margin);
+    padding-right: var(--layout-margin);
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "id": "nav",
+  "label": "Nav",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Header": {
+      "primaryNav": {
+        "config": {
+          "label": "Primary Nav",
+          "fields": {
+            "label": {
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              },
+              "type": "Text"
+            },
+            "link": {
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "select": null
+              },
+              "type": "Link"
+            },
+            "anchor": {
+              "type": "Text",
+              "config": {
+                "label": "Anchor",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "secondaryNav": {
+        "config": {
+          "label": "Secondary Nav",
+          "fields": {
+            "label": {
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              },
+              "type": "Text"
+            },
+            "link": {
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "select": null
+              },
+              "type": "Link"
+            },
+            "anchor": {
+              "type": "Text",
+              "config": {
+                "label": "Anchor",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "socialLinks": {
+        "type": "Group",
+        "config": {
+          "label": "Social Links",
+          "fields": {
+            "type": {
+              "type": "Select",
+              "config": {
+                "label": "Type",
+                "placeholder": "",
+                "options": [
+                  "instagram",
+                  "facebook",
+                  "linkedin",
+                  "twitter"
+                ]
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "Footer": {
+      "primaryLinks": {
+        "type": "Group",
+        "config": {
+          "label": "Primary Links",
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "secondaryLinks": {
+        "type": "Group",
+        "config": {
+          "label": "Secondary Links",
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "emailCaptureCopy": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Email Capture Copy",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "emailCapturePlaceholder": {
+        "type": "Text",
+        "config": {
+          "label": "Email Capture Placeholder",
+          "placeholder": ""
+        }
+      },
+      "copyright": {
+        "type": "Text",
+        "config": {
+          "label": "Copyright",
+          "placeholder": ""
+        }
+      },
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    }
+  }
+}

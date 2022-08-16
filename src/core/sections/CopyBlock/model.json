@@ -1,0 +1,99 @@
+{
+  "id": "copy_block",
+  "type": "SharedSlice",
+  "name": "CopyBlock",
+  "description": "CopyBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CopyBlock",
+      "primary": {
+        "theme": {
+          "type": "Select",
+          "config": {
+            "label": "Theme",
+            "placeholder": "",
+            "options": [
+              "white",
+              "black",
+              "aquamarine",
+              "pink",
+              "yellow"
+            ],
+            "default_value": "white"
+          }
+        },
+        "accent": {
+          "type": "Select",
+          "config": {
+            "label": "Accent",
+            "placeholder": "",
+            "options": [
+              "aquamarine",
+              "pink",
+              "yellow",
+              "white",
+              "black"
+            ],
+            "default_value": "aquamarine"
+          }
+        },
+        "paddingTop": {
+          "type": "Select",
+          "config": {
+            "label": "Padding Top",
+            "placeholder": "",
+            "options": [
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "2xl",
+              "3xl",
+              "4xl"
+            ]
+          }
+        },
+        "paddingBottom": {
+          "type": "Select",
+          "config": {
+            "label": "Padding Bottom",
+            "placeholder": "",
+            "options": [
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "2xl",
+              "3xl",
+              "4xl"
+            ]
+          }
+        },
+        "copy": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Copy",
+            "placeholder": "Enter copy here...",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading1,heading2,heading3,heading4,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "centered": {
+          "type": "Boolean",
+          "config": {
+            "label": "Centered",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

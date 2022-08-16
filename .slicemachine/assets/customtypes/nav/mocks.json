@@ -1,0 +1,168 @@
+{
+  "id": "65b345d7-ed6b-48e5-89ad-50e8a2342002",
+  "uid": "maiores-cupiditate-ut",
+  "type": "nav",
+  "data": {
+    "primaryNav": [
+      {
+        "label": "architect bleeding-edge synergies",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "anchor": "morph world-class users"
+      },
+      {
+        "label": "productize dynamic metrics",
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "anchor": "strategize out-of-the-box initiatives"
+      },
+      {
+        "label": "engage sticky interfaces",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "anchor": "syndicate world-class infomediaries"
+      },
+      {
+        "label": "engage scalable schemas",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "anchor": "synergize magnetic deliverables"
+      },
+      {
+        "label": "orchestrate innovative e-markets",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "anchor": "facilitate killer interfaces"
+      },
+      {
+        "label": "reintermediate cutting-edge channels",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "anchor": "reintermediate cross-media experiences"
+      }
+    ],
+    "secondaryNav": [
+      {
+        "label": "engineer compelling solutions",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "anchor": "engineer dot-com mindshare"
+      },
+      {
+        "label": "disintermediate cross-media partnerships",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "anchor": "optimize efficient networks"
+      },
+      {
+        "label": "empower seamless paradigms",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "anchor": "streamline B2C portals"
+      }
+    ],
+    "socialLinks": [
+      {
+        "type": "instagram",
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "type": "linkedin",
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      }
+    ],
+    "emailCaptureCopy": [
+      {
+        "type": "paragraph",
+        "text": "Aliqua adipisicing ex nulla dolor consectetur velit minim reprehenderit ipsum duis aliquip. Est reprehenderit do culpa ut enim eu consectetur. Ut adipisicing id nulla adipisicing sunt enim non cupidatat voluptate.",
+        "spans": []
+      }
+    ],
+    "emailCapturePlaceholder": "Your Email",
+    "copyright": "empower end-to-end experiences",
+    "primaryLinks": [
+      {
+        "label": "generate turn-key users",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "label": "optimize cross-platform communities",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "label": "matrix vertical schemas",
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "label": "whiteboard customized experiences",
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "label": "monetize viral schemas",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "label": "morph bleeding-edge architectures",
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "label": "disintermediate vertical solutions",
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "label": "synergize granular users",
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      }
+    ]
+  }
+}

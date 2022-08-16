@@ -1,0 +1,68 @@
+{
+  "id": "page",
+  "label": "Page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID",
+          "placeholder": "/"
+        },
+        "type": "UID"
+      },
+      "title": {
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "content_block": {
+              "type": "SharedSlice"
+            },
+            "cta": {
+              "type": "SharedSlice"
+            },
+            "copy_block": {
+              "type": "SharedSlice"
+            },
+            "hexagons": {
+              "type": "SharedSlice"
+            },
+            "image": {
+              "type": "SharedSlice"
+            },
+            "reorder_cta": {
+              "type": "SharedSlice"
+            },
+            "tri_cycle": {
+              "type": "SharedSlice"
+            },
+            "brands_marquee": {
+              "type": "SharedSlice"
+            },
+            "statistics": {
+              "type": "SharedSlice"
+            },
+            "gallery": {
+              "type": "SharedSlice"
+            },
+            "scroll_video": {
+              "type": "SharedSlice"
+            },
+            "careers": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

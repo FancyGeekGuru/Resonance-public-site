@@ -1,0 +1,19 @@
+/* Tailwind Base */
+@tailwind base;
+@layer base {
+  @import "base/globals.css";
+}
+
+/* Tailwind Components */
+@tailwind components;
+@layer components {
+  @import "components/button.css";
+  @import "components/container.css";
+}
+
+/* Tailwind Utilities */
+@tailwind utilities;
+@layer utilities {
+  @import "utilities/typography.css";
+  @import "utilities/general.css";
+}

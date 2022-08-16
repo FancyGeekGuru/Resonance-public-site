@@ -1,0 +1,2 @@
+export const capitolize = (word) => word
+  .replace(/\w\S*/g, (w) => (w.replace(/^\w/, (c) => c.toUpperCase())))

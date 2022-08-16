@@ -1,0 +1,47 @@
+.rounded-safari-fix {
+  -webkit-mask-image: -webkit-radial-gradient(white, black)
+}
+
+.path-mask {
+  transition: stroke-dashoffset 1s ease;
+  stroke-dasharray: 100;
+}
+
+.path-mask-hidden {
+  stroke-dashoffset: 100;
+}
+
+.path-mask-visible {
+  stroke-dashoffset: 200;
+}
+
+.absolute-center {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.perspective {
+  perspective: 10px;
+}
+
+.fix-clip-path {
+  -webkit-backface-visibility: hidden;
+  will-change: clip-path, -webkit-clip-path;
+}
+
+.hex-wrapper {
+  position: absolute;
+  transform-origin: center;
+  background: transparent;
+  outline: none;
+  -webkit-backface-visibility: hidden;
+}
+
+.hex {
+  -webkit-clip-path: polygon(24.906% 100%, 0 50%, 24.906% 0, 75% 0, 100% 50%, 75% 100%);
+  clip-path: polygon(24.906% 100%, 0 50%, 24.906% 0, 75% 0, 100% 50%, 75% 100%);
+  -webkit-backface-visibility: hidden;
+  /* backface-visibility: hidden; */
+}

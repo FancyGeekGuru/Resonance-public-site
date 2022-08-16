@@ -1,0 +1,81 @@
+{
+  "id": "careers",
+  "type": "SharedSlice",
+  "name": "Careers",
+  "description": "Careers",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Careers",
+      "primary": {
+        "theme": {
+          "type": "Select",
+          "config": {
+            "label": "Theme",
+            "placeholder": "",
+            "options": [
+              "white",
+              "black",
+              "aquamarine",
+              "pink",
+              "yellow"
+            ],
+            "default_value": "white"
+          }
+        },
+        "accent": {
+          "type": "Select",
+          "config": {
+            "label": "Accent",
+            "placeholder": "",
+            "options": [
+              "aquamarine",
+              "pink",
+              "yellow",
+              "white",
+              "black"
+            ],
+            "default_value": "aquamarine"
+          }
+        },
+        "paddingTop": {
+          "type": "Select",
+          "config": {
+            "label": "Padding Top",
+            "placeholder": "",
+            "options": [
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "2xl",
+              "3xl",
+              "4xl"
+            ]
+          }
+        },
+        "paddingBottom": {
+          "type": "Select",
+          "config": {
+            "label": "Padding Bottom",
+            "placeholder": "",
+            "options": [
+              "sm",
+              "md",
+              "lg",
+              "xl",
+              "2xl",
+              "3xl",
+              "4xl"
+            ]
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

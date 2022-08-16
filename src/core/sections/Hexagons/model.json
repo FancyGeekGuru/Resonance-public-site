@@ -1,0 +1,58 @@
+{
+  "id": "hexagons",
+  "type": "SharedSlice",
+  "name": "Hexagons",
+  "description": "Hexagons",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Hexagons",
+      "primary": {
+        "theme": {
+          "type": "Select",
+          "config": {
+            "label": "Theme",
+            "placeholder": "",
+            "options": [
+              "white",
+              "black",
+              "aquamarine",
+              "pink",
+              "yellow"
+            ],
+            "default_value": "white"
+          }
+        },
+        "accent": {
+          "type": "Select",
+          "config": {
+            "label": "Accent",
+            "placeholder": "",
+            "options": [
+              "aquamarine",
+              "pink",
+              "yellow",
+              "white",
+              "black"
+            ],
+            "default_value": "aquamarine"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading1,heading2,heading3,heading4,strong,em,hyperlink"
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

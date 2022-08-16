@@ -1,0 +1,27 @@
+:root {
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1.0);
+}
+
+body {
+  @apply font-display text-white;
+}
+
+p > a {
+  @apply underline;
+}
+
+a {
+  color: var(--foreground);
+}
+
+/* THEME */
+
+.theme-wrapper {
+  @apply transition-colors duration-700 min-h-screen;
+}
+
+video {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}

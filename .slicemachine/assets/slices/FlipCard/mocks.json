@@ -1,0 +1,74 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "flip_card",
+    "items": [
+      {
+        "front-text": [
+          {
+            "type": "heading1",
+            "text": "Drive interactive initiatives",
+            "spans": []
+          }
+        ],
+        "back-text": [
+          {
+            "type": "heading1",
+            "text": "Incubate extensible initiatives",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "front-text": [
+          {
+            "type": "heading1",
+            "text": "Repurpose rich systems",
+            "spans": []
+          }
+        ],
+        "back-text": [
+          {
+            "type": "heading1",
+            "text": "Engineer user-centric users",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "front-text": [
+          {
+            "type": "heading1",
+            "text": "Enhance front-end e-tailers",
+            "spans": []
+          }
+        ],
+        "back-text": [
+          {
+            "type": "heading1",
+            "text": "Transition leading-edge users",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "front-text": [
+          {
+            "type": "heading1",
+            "text": "Recontextualize viral metrics",
+            "spans": []
+          }
+        ],
+        "back-text": [
+          {
+            "type": "heading1",
+            "text": "Synthesize intuitive e-commerce",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {}
+  }
+]
