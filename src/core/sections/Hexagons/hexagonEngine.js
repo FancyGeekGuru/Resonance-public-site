@@ -30,6 +30,23 @@ const getActiveItems = () => defaultActiveItems.map((item) => ({
   spring: new SpringValue(0, { config: { tension: 65 } }),
 }))
 
+const generateRandomNumber = (colN, rowN) => {
+  const arr = []
+  while (arr.length < 4) {
+    const r = Math.floor(Math.random() * colN * rowN)
+    if (!arr.includes(r))
+      arr.push(r)
+  }
+  const ret = []
+  for (const n of arr) {
+    ret.push(JSON.stringify({
+      x: Math.floor(n / rowN),
+      y: n % rowN,
+    }))
+  }
+  return new Set(ret)
+}
+
 export class HexagonEngine {
   constructor({
     wrapper,
@@ -146,14 +163,15 @@ export class HexagonEngine {
       : (containerHeight - ((this.columnSize + 0.5) * this.hexHeight))
     const gridOffsetY = (Math.max(0, heightDiff) / 2) + (this.hexHeight / 2)
     const maxOffsetY = gridOffsetY + containerHeight - this.hexHeight
-    const activeGridRows = new Set([
-      chance.integer(gridDimensions.activeOffset.y),
-      this.columnSize - 1 - chance.integer(gridDimensions.activeOffset.y),
-    ])
-    const activeGridColumns = new Set([
-      chance.integer(gridDimensions.activeOffset.x),
-      this.columnCount - 1 - chance.integer(gridDimensions.activeOffset.x),
-    ])
+    // const activeGridRows = new Set([
+    //   chance.integer(gridDimensions.activeOffset.y),
+    //   this.columnSize - 1 - chance.integer(gridDimensions.activeOffset.y),
+    // ])
+    // const activeGridColumns = new Set([
+    //   chance.integer(gridDimensions.activeOffset.x),
+    //   this.columnCount - 1 - chance.integer(gridDimensions.activeOffset.x),
+    // ])
+    const activePositions = generateRandomNumber(this.columnCount, this.columnSize)
 
     for (let x = 0; x < this.columnCount; x++) {
       // find overall y offset for current column
@@ -166,9 +184,11 @@ export class HexagonEngine {
       for (let y = 0; y < this.columnSize; y++) {
         // decide whether the current hexagon is interactive with text
 
-        const isActiveGridRow = activeGridRows.has(y)
-        const isActiveGridColumn = activeGridColumns.has(x)
-        const isActiveItem = isActiveGridRow && isActiveGridColumn
+        // const isActiveGridRow = activeGridRows.has(y)
+        // const isActiveGridColumn = activeGridColumns.has(x)
+        // const isActiveItem = isActiveGridRow && isActiveGridColumn
+        const isActiveItem = activePositions.has(JSON.stringify({ x, y }))
+
         const skipLikelihood = ENABLE_RANDOM_HEXAGON_HIDDEN
           ? 20 + ((minSkipCount - currentSkipCount) / minSkipCount) * 30
           : 0

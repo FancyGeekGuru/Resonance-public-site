@@ -11,6 +11,7 @@ export function ThemeWrapper({ children, defaultTheme }) {
   const [inViewRef, inView] = useInView()
   const themeRef = useRef(null)
   const [theme, setTheme] = useState(defaultTheme ?? themeNames[0])
+  // const [theme, setTheme] = useState(themeNames[1])
 
   const style = useMemo(() => ({
     '--foreground': colors[themes[theme]?.foreground],
@@ -22,7 +23,7 @@ export function ThemeWrapper({ children, defaultTheme }) {
       const currentThemeWrapper = document
         .elementsFromPoint(window.innerWidth / 2, window.innerHeight / 2)
         .find((element) => element.tagName.toLocaleLowerCase() === 'section'
-            && element.parentNode === wrapperRef.current)
+          && element.parentNode === wrapperRef.current)
       const currentTheme = currentThemeWrapper?.dataset?.theme
       if (currentTheme && themeRef.current !== currentTheme) setTheme(currentTheme)
     }

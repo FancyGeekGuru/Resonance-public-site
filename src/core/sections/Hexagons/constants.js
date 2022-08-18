@@ -37,31 +37,54 @@ export const grid = [
     width: 9,
     height: 4,
     activeOffset: {
-      x: { min: 2, max: 3 },
-      y: { min: 0, max: 0 },
+      x: { min: 0, max: 7 },
+      y: { min: 0, max: 2 },
     },
   },
 ]
 
 export const INFINITE = 'Infinite'
+// export const overlayTypes = {
+//   creation: {
+//     word: 'creation',
+//     copy: 'at zero cost.',
+//     component: CreationAnimation,
+//   },
+//   connection: {
+//     word: 'connection',
+//     copy: 'with customers.',
+//     component: ConnectionAnimation,
+//   },
+//   scale: {
+//     word: 'scale',
+//     copy: 'with zero inventory.',
+//     component: ScaleAnimation,
+//   },
+//   flexibility: {
+//     word: 'flexibility',
+//     copy: 'to react in real time.',
+//     component: FlexibilityAnimation,
+//   },
+// }
+
 export const overlayTypes = {
-  creation: {
-    word: 'creation',
+  'No Inventory. No Waste': {
+    word: 'No Inventory. No Waste',
     copy: 'at zero cost.',
     component: CreationAnimation,
   },
-  connection: {
-    word: 'connection',
+  'Transparently Sustainable': {
+    word: 'Transparently Sustainable',
     copy: 'with customers.',
     component: ConnectionAnimation,
   },
-  scale: {
-    word: 'scale',
+  'The Newness Engine': {
+    word: 'The Newness Engine',
     copy: 'with zero inventory.',
     component: ScaleAnimation,
   },
-  flexibility: {
-    word: 'flexibility',
+  'Do Well and Do Good': {
+    word: 'Do Well and Do Good',
     copy: 'to react in real time.',
     component: FlexibilityAnimation,
   },

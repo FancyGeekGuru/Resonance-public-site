@@ -1,4 +1,4 @@
-import { Mark } from 'core/components/Icons/Mark'
+// import { Mark } from 'core/components/Icons/Mark'
 import { classNames } from 'lib/utils/classNames'
 import Image from 'next/image'
 import React, { forwardRef } from 'react'
@@ -39,7 +39,7 @@ const Hexagon = forwardRef(({ width, copy, image, onClick, activeItemIndex }, re
                 transition-colors duration-500 ease-ease
               "
             >
-              <Mark className="inline relative mr-1 w-[0.8em]" />
+              {/* <Mark className="inline relative mr-1 w-[0.8em]" /> */}
               {copy}
             </span>
           </span>
@@ -58,7 +58,7 @@ const Hexagon = forwardRef(({ width, copy, image, onClick, activeItemIndex }, re
               transition-colors duration-500 ease-ease
             "
           >
-            <polygon points="24.906,86.65 0,43.325 24.906,0 75,0 100,43.325 75,86.65" fill="currentColor" />
+            <polygon points="24.906,86.65 0,43.325 24.906,0 75,0 100,43.325 75,86.65" fill="#14C9E0" />
           </svg>
         )}
       </div>

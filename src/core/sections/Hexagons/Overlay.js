@@ -4,6 +4,9 @@ import { WordPill } from 'core/components/WordPill'
 import { INFINITE, overlayTypes, overlayVariants } from './constants'
 
 const Overlay = ({ type, onExit }) => {
+  // eslint-disable-next-line no-console
+  console.log(type, '====test ')
+
   if (!overlayTypes[type]) throw new Error(`Hexagon hero overlay type not valid: ${type}`)
   const { word, copy, component: Component } = overlayTypes[type]
   return (

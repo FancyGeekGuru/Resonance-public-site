@@ -99,7 +99,11 @@ const Hexagons = withMouse(({ slice: { primary: { heading, ...primary } }, ...re
           )}
         >
           <div className="md:-mt-[calc(var(--header-height)*0.4)]">
-            <PrismicRichText field={heading} />
+            <PrismicRichText field={[heading[0]]} />
+            <span style={{ color: '#14C9E0' }}>
+              <PrismicRichText field={[{ type: 'heading1', text: 'No Inventory', spans: [] }]} />
+            </span>
+            <PrismicRichText field={[{ type: 'heading1', text: 'Operating System', spans: [] }]} />
           </div>
         </div>
       </div>
